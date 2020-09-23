@@ -34,7 +34,6 @@ namespace BrokenApp.WebMVC.Controllers
             return View();
         }
 
-        [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(MeetingCreate model)
         {
